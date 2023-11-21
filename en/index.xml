@@ -8,6 +8,18 @@
     <language>en</language>
     <lastBuildDate>Sat, 18 Nov 2023 17:37:19 +0100</lastBuildDate><atom:link href="https://hackpandora.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>File Transfer - Cheat Sheet</title>
+      <link>https://hackpandora.github.io/en/posts/filetransfer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hackpandora.github.io/en/posts/filetransfer/</guid>
+      <description>Welcome to this cheat sheet on the different methods of file transfer between an &amp;ldquo;attacker&amp;rdquo; machine and a &amp;ldquo;victim&amp;rdquo; machine!
+When accessing a machine remotely, the ability to transfer files effectively is essential. This guide provides an overview of the various methods used.
+Linux HTTP Server # Sender python -m SimpleHTTPServer 80 # Recipient wget http://192.168.1.1/File2Transfer o curl -o File2Transfer http://192.168.1.130/File2Transfer SCP (SSH utility) Upload file:
+scp File2Transfer user@192.168.1.1:/home/user/ Download file:</description>
+    </item>
+    
+    <item>
       <title>My first post</title>
       <link>https://hackpandora.github.io/en/posts/post/</link>
       <pubDate>Sat, 18 Nov 2023 17:37:19 +0100</pubDate>
@@ -20,14 +32,12 @@ print(&amp;#34;Hello world&amp;#34;) </description>
     
     
     <item>
-      <title>Transfer Files - Cheat Sheet</title>
-      <link>https://hackpandora.github.io/en/posts/transferfiles/</link>
+      <title>whoami</title>
+      <link>https://hackpandora.github.io/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hackpandora.github.io/en/posts/transferfiles/</guid>
-      <description>Tranferencia de Ficheros - Cheat Sheet ¡Bienvenidos a esta cheat sheet sobre los distintos métodos para la transferencia de archivos entre una máquina &amp;ldquo;atacante&amp;rdquo; y una máquina &amp;ldquo;víctima&amp;rdquo;!
-Cuando se consigue acceso a una máquina de forma remota, la capacidad de transferir archivos de manera efectiva es esencial. Esta guía proporciona una visión general de diversos métodos utilizados .
-Linux HTTP Server # Emisor python -m SimpleHTTPServer 80 # Receptor wget http://192.</description>
+      <guid>https://hackpandora.github.io/en/about/</guid>
+      <description>Hello </description>
     </item>
     
   </channel>

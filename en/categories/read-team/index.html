@@ -14,15 +14,16 @@
 <meta name="yandex-verification" content="XYZabc">
 <meta name="msvalidate.01" content="XYZabc">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://hackpandora.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://hackpandora.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://hackpandora.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://hackpandora.github.io/apple-touch-icon.png">
+<link rel="icon" href="https://hackpandora.github.io/Img/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://hackpandora.github.io/Img/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://hackpandora.github.io/Img/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://hackpandora.github.io/Img/favicon/apple-touch-icon.png">
 <link rel="mask-icon" href="https://hackpandora.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="https://hackpandora.github.io/en/categories/read-team/index.xml">
 <link rel="alternate" hreflang="en" href="https://hackpandora.github.io/en/categories/read-team/">
+<link rel="alternate" hreflang="es" href="https://hackpandora.github.io/es/categories/read-team/">
 <noscript>
     <style>
         #theme-toggle,
@@ -54,7 +55,7 @@
     <nav class="nav">
         <div class="logo">
             <a href="https://hackpandora.github.io/en/" accesskey="h" title="Hack Pandora (Alt + H)">
-                <img src="https://hackpandora.github.io/apple-touch-icon.png" alt="" aria-label="logo"
+                <img src="https://hackpandora.github.io/Img/favicon/apple-touch-icon.png" alt="" aria-label="logo"
                     height="35">Hack Pandora</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
@@ -108,6 +109,11 @@
                 </a>
             </li>
             <li>
+                <a href="https://hackpandora.github.io/en/about/" title="whoami">
+                    <span>whoami</span>
+                </a>
+            </li>
+            <li>
                 <a href="https://hackpandora.github.io/en/search" title="search 🔍 (Alt &#43; /)" accesskey=/>
                     <span>search 🔍</span>
                 </a>
@@ -123,14 +129,20 @@
 </header>
 
 <article class="post-entry tag-entry"> 
-<figure class="entry-cover"><img loading="lazy" src="https://hackpandora.github.io/TransferFiles/TransferFiles.jpg" alt="">
+<figure class="entry-cover"><img loading="lazy" src="https://hackpandora.github.io/Img/FileTransfer/FileTransfer.jpg" alt="">
 </figure>
   <header class="entry-header">
-    <h2>Transfer Files - Cheat Sheet
+    <h2>File Transfer - Cheat Sheet
     </h2>
   </header>
+  <div class="entry-content">
+    <p>Welcome to this cheat sheet on the different methods of file transfer between an “attacker” machine and a “victim” machine!
+When accessing a machine remotely, the ability to transfer files effectively is essential. This guide provides an overview of the various methods used.
+Linux HTTP Server # Sender python -m SimpleHTTPServer 80 # Recipient wget http://192.168.1.1/File2Transfer o curl -o File2Transfer http://192.168.1.130/File2Transfer SCP (SSH utility) Upload file:
+scp File2Transfer user@192.168.1.1:/home/user/ Download file:...</p>
+  </div>
   <footer class="entry-footer">Luis Díaz (escipi0n)</footer>
-  <a class="entry-link" aria-label="post link to Transfer Files - Cheat Sheet" href="https://hackpandora.github.io/en/posts/transferfiles/"></a>
+  <a class="entry-link" aria-label="post link to File Transfer - Cheat Sheet" href="https://hackpandora.github.io/en/posts/filetransfer/"></a>
 </article>
     </main>
     

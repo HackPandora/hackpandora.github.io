@@ -2,6 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hackpandora.github.io/en/posts/filetransfer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hackpandora.github.io/es/posts/filetransfer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hackpandora.github.io/en/posts/filetransfer/"
+                />
+  </url><url>
+    <loc>https://hackpandora.github.io/en/posts/post/</loc>
+    <lastmod>2023-11-18T17:37:19+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hackpandora.github.io/es/posts/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hackpandora.github.io/en/posts/post/"
+                />
+  </url><url>
     <loc>https://hackpandora.github.io/en/categories/</loc>
     <lastmod>2023-11-18T17:37:19+01:00</lastmod>
     <xhtml:link
@@ -26,19 +51,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://hackpandora.github.io/en/"
-                />
-  </url><url>
-    <loc>https://hackpandora.github.io/en/posts/post/</loc>
-    <lastmod>2023-11-18T17:37:19+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hackpandora.github.io/es/posts/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hackpandora.github.io/en/posts/post/"
                 />
   </url><url>
     <loc>https://hackpandora.github.io/en/posts/</loc>
@@ -94,8 +106,28 @@
                 />
   </url><url>
     <loc>https://hackpandora.github.io/en/tags/cheat-sheet/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hackpandora.github.io/es/tags/cheat-sheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hackpandora.github.io/en/tags/cheat-sheet/"
+                />
   </url><url>
     <loc>https://hackpandora.github.io/en/categories/read-team/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hackpandora.github.io/es/categories/read-team/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hackpandora.github.io/en/categories/read-team/"
+                />
   </url><url>
     <loc>https://hackpandora.github.io/en/search/</loc>
     <xhtml:link
@@ -109,6 +141,16 @@
                 href="https://hackpandora.github.io/en/search/"
                 />
   </url><url>
-    <loc>https://hackpandora.github.io/en/posts/transferfiles/</loc>
+    <loc>https://hackpandora.github.io/en/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hackpandora.github.io/es/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hackpandora.github.io/en/about/"
+                />
   </url>
 </urlset>
